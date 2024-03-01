@@ -10,6 +10,7 @@ export const colorOptions = [
   "red",
   "pink",
   "purple",
+  "black",
   "white",
 ];
 
@@ -23,6 +24,7 @@ export const ColorPickerInput = wrapFieldsWithMeta(({ input }) => {
     red: "bg-red-500 border-red-600",
     pink: "bg-pink-500 border-pink-600",
     purple: "bg-purple-500 border-purple-600",
+    black: "bg-black border-gray-900",
     white: "bg-white border-gray-150",
   };
 

@@ -23,6 +23,7 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
       purple: "text-white from-purple-400 to-purple-500",
       orange: "text-white from-orange-400 to-orange-500",
       yellow: "text-white from-yellow-400 to-yellow-500",
+      black: " text-black from-gray-900 to-black"
     },
   };
 
@@ -44,6 +45,8 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
       "border-b-3 border-orange-200 text-orange-700 dark:text-orange-300 font-medium dark:border-orange-700",
     yellow:
       "border-b-3 border-yellow-300 text-yellow-700 dark:text-yellow-300 font-medium dark:border-yellow-600",
+      black: 
+      "border-b-3 border-gray-950 text-black dark:text-white font-medium dark:border-gray-500",
   };
 
   const activeBackgroundClasses = {
@@ -55,6 +58,7 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
     purple: "text-purple-500",
     orange: "text-orange-500",
     yellow: "text-yellow-500",
+    black: "text-black"
   };
   const [isClient, setIsClient] = React.useState(false);
   React.useEffect(() => {

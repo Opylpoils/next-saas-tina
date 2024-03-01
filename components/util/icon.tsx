@@ -95,6 +95,10 @@ const iconColorClass: {
     regular: "text-yellow-400",
     circle: "bg-yellow-400 dark:bg-yellow-500 text-yellow-50",
   },
+  black: {
+    regular: "text-black opacity-80",
+    circle: "bg-gray-300 dark:bg-gray-500 text-black",
+  },
   white: {
     regular: "text-white opacity-80",
     circle: "bg-white-400 dark:bg-white-500 text-white-50",

@@ -19,6 +19,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
     purple: "from-purple-400 to-purple-600",
     orange: "from-orange-300 to-orange-600",
     yellow: "from-yellow-400 to-yellow-600",
+    black: "from-gray-900 to-black"
   };
 
   return (
