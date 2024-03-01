@@ -76,6 +76,7 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
                 tinaField={tinaField(data, "icon")}
                 parentColor={data.color}
                 data={{
+                  size:'xxl',
                   name: data.icon.name,
                   color: data.icon.color,
                   style: data.icon.style,
