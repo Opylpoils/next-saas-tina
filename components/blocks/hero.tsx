@@ -7,32 +7,10 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { Template } from "tinacms";
 import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
+import { TheadlineColorClasses, headlineColorClasses } from "../util/color";
 
 export const Hero = ({ data }: { data: PageBlocksHero }) => {
   const theme = useTheme();
-  const headlineColorClasses = {
-    blue: "from-blue-400 to-blue-600",
-    teal: "from-teal-400 to-teal-600",
-    green: "from-green-400 to-green-600",
-    red: "from-red-400 to-red-600",
-    pink: "from-pink-400 to-pink-600",
-    purple: "from-purple-400 to-purple-600",
-    orange: "from-orange-300 to-orange-600",
-    yellow: "from-yellow-400 to-yellow-600",
-    black: "from-gray-900 to-black"
-  };
-  const TheadlineColorClasses = {
-    blue: "text-blue-transparent",
-    teal: "text-transparent",
-    green: "text-transparent",
-    red: "text-transparent",
-    pink: "text-transparent",
-    purple: "text-transparent",
-    orange: "text-orange-transparent",
-    yellow: "text-transparent",
-    black: "text-black-transparent"
-  };
-
 
   const imageClasses = {
     top: "row-start-2 text-center",
@@ -68,10 +46,10 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               className={`relative mb-10 w-full text-5xl font-extrabold tracking-normal leading-tight title-font`}
             >
               <span
-                className={`bg-clip-text ${TheadlineColorClasses[theme.color]} bg-gradient-to-r  ${
+                className={`bg-clip-text bg-gradient-to-r  ${
                   data.color === "primary"
-                    ? `from-white to-gray-100`
-                    : headlineColorClasses[theme.color]
+                    ? `from-white to-gray-100 text-transparent`
+                    : headlineColorClasses[theme.color] + TheadlineColorClasses[theme.color]
                 }`}
               >
                 {data.headline}

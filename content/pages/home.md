@@ -1,6 +1,33 @@
 ---
 title: Tina Cloud Starter
 blocks:
+  - tagline: ' Pricing plan'
+    headline: '  Our pricing plans'
+    text: |
+      dddddd
+    items:
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+        actions:
+          label: dddddd
+          link: ddddddd
+    _template: prices
   - headline: Welcome to the Tina Starter
     text: >
       This project is set up to show you the basics of working with Tina. You're
@@ -56,6 +83,4 @@ blocks:
     color: primary
     _template: testimonial
 ---
-
-
 
