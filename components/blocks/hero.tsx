@@ -4,7 +4,7 @@ import { Container } from "../util/container";
 import { Section } from "../util/section";
 import { useTheme } from "../layout";
 import { TinaMarkdown } from "tinacms/dist/rich-text";
-import type { TinaTemplate } from "tinacms";
+import type { Template } from "tinacms";
 import { PageBlocksHero } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
 
@@ -22,26 +22,38 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
     black: "from-gray-900 to-black"
   };
 
+  const imageClasses = {
+    top: "row-start-2 text-center",
+    bottom: "row-start-1 text-center",
+    left: "md:col-span-3 md:col-start-3 md:text-left md:row-start-1 row-start-2",
+    right: " md:col-span-3 md:col-start-1 md:text-left md:row-start-1 row-start-2",
+  }
+  const imageClassesPos = {
+    top: "gap-y-14 grid-cols-1 ",
+    bottom: "gap-y-14 grid-cols-1 ",
+    left: "gap-y-14 grid-cols-1 md:grid-cols-5 md:gap-x-14",
+    right: " gap-y-14 grid-cols-1 md:grid-cols-5 md:gap-x-14",
+  }
   return (
     <Section color={data.color}>
       <Container
         size="large"
-        className="grid grid-cols-1 md:grid-cols-5 gap-14 items-center justify-center"
+        className={`grid  gap-14 justify-center items-center ${data.imagePos ? imageClassesPos[data.imagePos] : 'grid-cols-1 md:grid-cols-5 '} `}
       >
-        <div className="row-start-2 md:row-start-1 md:col-span-3 text-center md:text-left">
+        <div className={` text-center   ${data.imagePos ? imageClasses[data.imagePos] : 'md:col-span-3 md:text-left md:row-start-1 row-start-2'}`}>
           {data.tagline && (
             <h2
               data-tina-field={tinaField(data, "tagline")}
-              className="relative inline-block px-3 py-1 mb-8 text-md font-bold tracking-wide title-font z-20"
+              className="inline-block relative z-20 px-3 py-1 mb-8 font-bold tracking-wide text-md title-font"
             >
               {data.tagline}
-              <span className="absolute w-full h-full left-0 top-0 rounded-full -z-1 bg-current opacity-7"></span>
+              <span className="absolute top-0 left-0 w-full h-full bg-current rounded-full -z-1 opacity-7"></span>
             </h2>
           )}
           {data.headline && (
             <h3
               data-tina-field={tinaField(data, "headline")}
-              className={`w-full relative	mb-10 text-5xl font-extrabold tracking-normal leading-tight title-font`}
+              className={`relative mb-10 w-full text-5xl font-extrabold tracking-normal leading-tight title-font`}
             >
               <span
                 className={`bg-clip-text text-transparent bg-gradient-to-r  ${
@@ -57,7 +69,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
           {data.text && (
             <div
               data-tina-field={tinaField(data, "text")}
-              className={`prose prose-lg mx-auto md:mx-0 mb-10 ${
+              className={` prose-lg mx-auto md:mx-0 mb-10 ${
                 data.color === "primary" ? `prose-primary` : `dark:prose-dark`
               }`}
             >
@@ -66,7 +78,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
           )}
           {data.actions && (
             <Actions
-              className="justify-center md:justify-start py-2"
+              className={`justify-center py-2 ${(data.imagePos === 'right' || data.imagePos === 'left' || !data.imagePos ) && ' md:justify-start'}`}
               parentColor={data.color}
               actions={data.actions}
             />
@@ -75,7 +87,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
         {data.image && (
           <div
             data-tina-field={tinaField(data.image, "src")}
-            className="relative row-start-1 md:col-span-2 flex justify-center"
+            className={`flex relative justify-center md:col-span-2 ${(data.imagePos === 'right' || data.imagePos === 'left') && 'row-start-1'}`}
           >
             <img
               className="absolute w-full rounded-lg max-w-xs md:max-w-none h-auto blur-2xl brightness-150 contrast-[0.9] dark:brightness-150 saturate-200 opacity-50 dark:opacity-30 mix-blend-multiply dark:mix-blend-hard-light"
@@ -83,7 +95,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               aria-hidden="true"
             />
             <img
-              className="relative z-10 w-full max-w-xs rounded-lg md:max-w-none h-auto"
+              className="relative z-10 w-full max-w-xs h-auto rounded-lg md:max-w-none"
               alt={data.image.alt}
               src={data.image.src}
             />
@@ -94,7 +106,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
   );
 };
 
-export const heroBlockSchema: TinaTemplate = {
+export const heroBlockSchema: Template = {
   name: "hero",
   label: "Hero",
   ui: {
@@ -161,6 +173,26 @@ export const heroBlockSchema: TinaTemplate = {
           type: "string",
         },
       ],
+    },
+    {
+      type: 'string',
+      name: 'imagePos',
+      label: 'Position de l\'image',
+      options: [
+        {
+          value: "top",
+          label: "Haut"
+        }, {
+          value: "bottom",
+          label: "Bas"
+        }, {
+          value: "left",
+          label: "Gauche"
+        }, {
+          value: "right",
+          label: "Droite"
+        }
+      ]
     },
     {
       type: "object",
