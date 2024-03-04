@@ -46,6 +46,7 @@ module.exports = {
         800: "#144696",
         900: "#1D2C6C",
         1000: "#241748",
+        'transparent' : '#0084FF80'
       },
       orange: {
         200: "#EB7752",
@@ -55,7 +56,23 @@ module.exports = {
         600: "#DC4419",
         700: "#D04017",
         800: "#C1360F",
+        'transparent' : '#EC481580'
       },
+      black: {
+        '50': '#b1afaf',
+        '100': '#a4a2a2',
+        '200': '#8d8b8b',
+        '300': '#6c6a6a',
+        '400': '#434242',
+        '500': '#292828',
+        '600': '#171717',
+        '700': '#0a0a0a',
+        '800': '#000000',
+        '900': '#000000',
+        '950': '#000000',
+        'transparent' : '#00000080'
+    },
+    
     },
     screens: {
       sm: "600px",
@@ -107,25 +124,38 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
+            color: theme("colors.black.500"),
+            '[class~="lead"]': { color: theme("colors.black.400") },
+            a: { color: theme("colors.black.700") },
+            strong: { color: theme("colors.black.700") },
+            "ul > li::before": { backgroundColor: theme("colors.black.600") },
+            hr: { borderColor: theme("colors.black.300") },
+            blockquote: {
+              color: theme("colors.black.600"),
+              borderLeftColor: theme("colors.black.300"),
+            },
+            h1: { color: theme("colors.black.700") },
+            h2: { color: theme("colors.black.700") },
+            h3: { color: theme("colors.black.700") },
+            h4: { color: theme("colors.black.700") },
+            code: {
+              color: theme("colors.black.400"),
+              backgroundColor: "rgba(0,0,0,0.25)",
+            },
+            "a code": { color: theme("colors.black.500") },
             pre: {
-              color: theme("colors.gray.700"),
+              color: theme("colors.black.500"),
+              backgroundColor: "rgba(0,0,0,0.15)",
+            },
+            thead: {
+              color: theme("colors.black.600"),
+              borderBottomColor: theme("colors.black.200"),
+            },
+            "tbody tr": { borderBottomColor: theme("colors.black.200") },
+            pre: {
+              color: theme("colors.black.700"),
               backgroundColor: theme("colors.gray.100"),
               lineHeight: 1.5,
-            },
-            code: {
-              backgroundColor: theme("colors.gray.100"),
-              padding: "0.25rem",
-              borderRadius: "3px",
-              margin: "-0.25rem 1px",
-            },
-            "code::before": {
-              content: '""',
-            },
-            "code::after": {
-              content: '""',
-            },
-            "p:first-of-type": {
-              fontSize: "1.125rem",
             },
           },
         },

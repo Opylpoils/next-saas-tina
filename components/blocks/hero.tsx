@@ -21,6 +21,18 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
     yellow: "from-yellow-400 to-yellow-600",
     black: "from-gray-900 to-black"
   };
+  const TheadlineColorClasses = {
+    blue: "text-blue-transparent",
+    teal: "text-transparent",
+    green: "text-transparent",
+    red: "text-transparent",
+    pink: "text-transparent",
+    purple: "text-transparent",
+    orange: "text-orange-transparent",
+    yellow: "text-transparent",
+    black: "text-black-transparent"
+  };
+
 
   const imageClasses = {
     top: "row-start-2 text-center",
@@ -56,7 +68,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               className={`relative mb-10 w-full text-5xl font-extrabold tracking-normal leading-tight title-font`}
             >
               <span
-                className={`bg-clip-text text-transparent bg-gradient-to-r  ${
+                className={`bg-clip-text ${TheadlineColorClasses[theme.color]} bg-gradient-to-r  ${
                   data.color === "primary"
                     ? `from-white to-gray-100`
                     : headlineColorClasses[theme.color]
@@ -69,7 +81,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
           {data.text && (
             <div
               data-tina-field={tinaField(data, "text")}
-              className={` prose-lg mx-auto md:mx-0 mb-10 ${
+              className={` prose prose-lg mx-auto md:mx-0 mb-10 ${
                 data.color === "primary" ? `prose-primary` : `dark:prose-dark`
               }`}
             >
