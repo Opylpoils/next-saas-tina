@@ -12,6 +12,11 @@ const Global: Collection = {
   },
   fields: [
     {
+      type: "string",
+      label: "Titre",
+      name: "title",
+    },
+    {
       type: "object",
       label: "Header",
       name: "header",

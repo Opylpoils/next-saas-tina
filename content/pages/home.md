@@ -1,32 +1,31 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - tagline: ' Pricing plan'
-    headline: '  Our pricing plans'
+  - headline: '  Our pricing plans'
     text: |
       dddddd
     items:
       - title: Here's Another price
-        price: '0'
+        price: 15€
         tagline: par seance
+        list:
+          - Raison 1
+          - Raison 2
+          - Raison 3
       - title: Here's Another price
-        price: '0'
+        price: 25€
         tagline: par seance
+        list:
+          - Raison 1
+          - Raison 2
       - title: Here's Another price
-        price: '0'
+        price: 5€
         tagline: par seance
-      - title: Here's Another price
-        price: '0'
-        tagline: par seance
-      - title: Here's Another price
-        price: '0'
-        tagline: par seance
-      - title: Here's Another price
-        price: '0'
-        tagline: par seance
-        actions:
-          label: dddddd
-          link: ddddddd
+        list:
+          - Raison 1
+          - Raison 2
+          - Raison 3
+          - Raison 4
     _template: prices
   - headline: Welcome to the Tina Starter
     text: >

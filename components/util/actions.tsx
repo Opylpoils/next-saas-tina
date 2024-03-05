@@ -29,7 +29,7 @@ export const Actions = ({
     yellow:
       "text-gray-800 bg-yellow-500 hover:bg-yellow-600 bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-400 hover:to-yellow-500",
     black:
-      "text-black bg-gray-300 hover:bg-gray-600 bg-gradient-to-r from-gray-500 to-gray-800 hover:from-gray-400 hover:to-gray-500",
+      "text-white bg-gray-300 hover:bg-gray-600 bg-gradient-to-r from-gray-500 to-gray-800 hover:from-gray-400 hover:to-gray-500",
   };
 
   const invertedButtonColorClasses = {
