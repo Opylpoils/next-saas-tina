@@ -3,7 +3,12 @@ import { Layout } from "../components/layout";
 
 export default function FourOhFour() {
   return (
-    <Layout>
+    <Layout SEO={
+      {
+        title: '404',
+        description: "Oops! It seems there's nothing here, how embarrassing.",
+      }
+    }>
       <Hero
         data={{
           color: "default",

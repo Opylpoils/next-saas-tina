@@ -4,6 +4,7 @@ import { Blocks } from "../components/blocks-renderer";
 import { useTina } from "tinacms/dist/react";
 import { Layout } from "../components/layout";
 import { client } from "../tina/__generated__/client";
+import { PageSeo } from "../tina/__generated__/types";
 
 export default function HomePage(
   props: InferGetStaticPropsType<typeof getStaticProps>
@@ -11,7 +12,7 @@ export default function HomePage(
   const { data } = useTina(props);
 
   return (
-    <Layout data={data.global as any}>
+    <Layout data={data.global as any} SEO={data.page.seo as PageSeo}>
       <Blocks {...data.page} />
     </Layout>
   );

@@ -15,7 +15,7 @@ export default function BlogPostPage(
   });
   if (data && data.post) {
     return (
-      <Layout data={data.global}>
+      <Layout data={data.global} SEO={data.post.seo as any}>
         <Post {...data.post} />
       </Layout>
     );

@@ -1,4 +1,5 @@
 import type { Collection } from "tinacms";
+import { expertSeoPageProps } from "./seo";
 
 const Post: Collection = {
   label: "Blog Posts",
@@ -11,6 +12,7 @@ const Post: Collection = {
     },
   },
   fields: [
+    expertSeoPageProps,
     {
       type: "string",
       label: "Title",

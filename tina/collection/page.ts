@@ -5,6 +5,7 @@ import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
 import { priceBlockSchema } from "../../components/blocks/price";
 import { faqBlockSchema } from "../../components/blocks/faq";
+import { expertSeoPageProps } from "./seo";
 
 const Page: Collection = {
   label: "Pages",
@@ -25,6 +26,7 @@ const Page: Collection = {
     },
   },
   fields: [
+    expertSeoPageProps,
     {
       type: "string",
       label: "Title",

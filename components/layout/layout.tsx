@@ -4,20 +4,42 @@ import { Header } from "./header";
 import { Footer } from "./footer";
 import { Theme } from "./theme";
 import layoutData from "../../content/global/index.json";
-import { Global } from "../../tina/__generated__/types";
+import { Global, PageSeo } from "../../tina/__generated__/types";
 
 export const Layout = ({
   data = layoutData,
+  SEO,
   children,
 }: {
   data?: Omit<Global, "id" | "_sys" | "_values">;
+  SEO?: PageSeo;
   children: React.ReactNode;
 }) => {
+  const metaurl = "/tina.svg";
+  const metadescription = "Vous désirez comprendre les réactions de votre animal, ses besoins. Vous voulez l’éduquer. Coach comportementaliste animalier";
   return (
     <>
       <Head>
-        <title>{data.title}</title>
+        <title>{SEO?.title ? SEO?.title : data.title}</title>
+        <meta charSet="UTF-8" />
+        <meta name="description" content={SEO?.description ? SEO?.description : metadescription}/>
+        <meta name="robot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        {/* Meta Key Word */}
+        <meta name="Keyword" content={SEO?.addtionalMetaTags?.toString()}/>
+        {/* OPEN GRAPH META */}
+        { SEO?.openGraph && (
+          <>
+          <meta property="og:locale" content="fr-FR"/>
+          <meta property="og:type" content={SEO?.openGraph.type ? SEO?.openGraph.type : 'siteweb'}/>
+          <meta property="og:site_name" content={SEO?.openGraph.siteName ? SEO?.openGraph.siteName : "La Crouzié"} />
+          <meta property="og:title" content={SEO?.openGraph.title ? (SEO?.title && SEO?.title) : data.title} />
+          <meta property="og:description" content={SEO?.openGraph.description ? (SEO?.description && SEO?.description) : metadescription} />
+          <meta property="og:image" content={SEO?.openGraph.images?.url ? SEO?.openGraph.images?.url : metaurl} />
+          <meta property="og:image:width" content={SEO?.openGraph.images?.width ? SEO?.openGraph.images?.width?.toString() : '500'} />
+          <meta property="og:image:height" content={SEO?.openGraph.images?.height ? SEO?.openGraph.images?.height?.toString() : '500'}/>
+          </>
+        )}
         {data.theme.font === "nunito" && (
           <>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
