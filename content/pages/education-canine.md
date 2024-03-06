@@ -63,9 +63,29 @@ blocks:
   - title: Questions fréquemment posées
     details:
       - title: comment cela ce passe
-        desc: "Le\_Lorem Ipsum\_est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.\n"
-      - title: Commen se passe une balade
-        desc: "Le\_Lorem Ipsum\_est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.\n"
+        desc: >
+          Je dois avoir rencontré votre chien en séances au moins 1 fois pour
+          pouvoir l intégrer dans le bon groupe afin d'être sûr qu'il est près
+          pour des balades collectives éducatives. (Gabarit ,âge, durée de la
+          sortie.)
+
+
+          Il ne doit pas être réactif avec ses congénères( cela pourra
+          évidemment être travaillé en amont pour lui permettre d'intégrer les
+          sorties collectives)
+
+
+          Si vous possédez une chienne non stérilisé et ne devra pas être en
+          chaleur.
+      - title: Comment se passe une balade
+        desc: >
+          Je vous propose une balade avec un nombre de kilomètres et une durée.
+          Il y aura entre 3 et 6 binômes maître/chien.
+
+
+          Arrivée au lieu de rdv, dans un 1 er temps nous ferons les
+          présentations humaines et ensuite sur mes conseils vous pourrez sortir
+          votre chien chacun votre tour et commencer la balade.
       - title: comment savoir .......
         desc: "Le\_Lorem Ipsum\_est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.\n"
     color: tint
