@@ -6,7 +6,7 @@ import { Container } from "../../util/container";
 import { useTheme } from "..";
 import { Icon } from "../../util/icon";
 
-export const Footer = ({ data, icon, rawData }) => {
+export const Footer = ({ data, icon }) => {
   const theme = useTheme();
   const socialIconClasses = "h-7 w-auto";
   const socialIconColorClasses = {
