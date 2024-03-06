@@ -85,7 +85,7 @@ export const PriceTable = ({data} : {data: PageBlocksPrices}) => {
         <div className="grid grid-cols-1 gap-8 pt-3 -mx-4 lg:grid-cols-3 md:grid-cols-2 md:mt-4">
           {data.items &&
           data.items.map((item, i) =>{
-            return <Price key={i} keys={i} item={item} color={theme.color} />
+            return <Price key={i} item={item} color={theme.color} />
           })}
         </div>
       </Container>
