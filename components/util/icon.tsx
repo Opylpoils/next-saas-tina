@@ -3,6 +3,12 @@ import { ColorPickerInput } from "../../tina/fields/color";
 import { IconPickerInput } from "../../tina/fields/icon";
 import { useTheme } from "../layout";
 import * as BoxIcons from "react-icons/bi";
+import * as FontAwesome from "react-icons/fa";
+import {FaPaw, FaDog, FaCat } from "react-icons/fa6";
+import { LuDog } from "react-icons/lu";
+import { PiDog, PiDogBold,PiDogFill } from "react-icons/pi";
+import { GiJumpingDog, GiSittingDog, GiSniffingDog, GiDogBowl } from "react-icons/gi";
+
 
 export const IconOptions = {
   Tina: (props) => (
@@ -57,6 +63,18 @@ export const IconOptions = {
       </text>
   </svg>
   ),
+  FaCat,
+  FaDog,
+  LuDog,
+  GiJumpingDog,
+  GiSittingDog,
+  GiSniffingDog,
+  PiDog,
+  PiDogBold,
+  PiDogFill,
+  FaPaw,
+  GiDogBowl,
+  ...FontAwesome,
   ...BoxIcons,
 };
 
