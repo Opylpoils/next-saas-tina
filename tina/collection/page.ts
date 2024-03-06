@@ -18,6 +18,9 @@ const Page: Collection = {
       if (document._sys.filename === "about") {
         return `/about`;
       }
+      if (document._sys.filename ) {
+        return `/${document._sys.filename}`;
+      }
       return undefined;
     },
   },

@@ -1,85 +1,94 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - headline: '  Our pricing plans'
-    text: |
-      dddddd
-    items:
-      - title: Here's Another price
-        price: 15€
-        tagline: par seance
-        list:
-          - Raison 1
-          - Raison 2
-          - Raison 3
-      - title: Here's Another price
-        price: 25€
-        tagline: par seance
-        list:
-          - Raison 1
-          - Raison 2
-      - title: Here's Another price
-        price: 5€
-        tagline: par seance
-        list:
-          - Raison 1
-          - Raison 2
-          - Raison 3
-          - Raison 4
-    _template: prices
-  - headline: Welcome to the Tina Starter
+  - tagline: Opy'l Poils
+    headline: La Methode d'Opy
     text: >
-      This project is set up to show you the basics of working with Tina. You're
-      looking at the landing page, which pulls content from
-      `content/pages/home.md`, components from components/blocks, and puts them
-      all together in `pages/[filename].tsx`, all based on a config
-      `tina/config.tsx`.
-    actions:
-      - label: Get Started
-        type: button
-        icon: true
-        link: /posts
-      - label: Read Blog
-        type: link
-        icon: false
-        link: /posts
+      Notre but est d’apporter une relation saine et harmonieuse entre humain et
+      canin. Nous apporterons notre pierre à l’édifice sur la complicité que
+      vous aurez créé.
+
+
+      Des méthodes éducatives positives utilisant la complicité homme-chien et
+      la motivation par récompenses ( jeux, alimentaire, vocal, caresse ….) sont
+      notre guide au quotidien.
+
+
+      Aucun usage de la peur, privation, force et cri sera utilisé durant nos
+      séances, sachant que nous luttons pour le bien être animal
+      quotidiennement.
+    imagePos: right
     image:
-      src: /uploads/unsplash-75EFpyXu3Wg.jpg
-      alt: >-
-        Photo of palm trees at sunset by Adam Birkett -
-        unsplash.com/photos/75EFpyXu3Wg
+      src: /uploads/Opy/Opy.jpg
+      alt: Mon Chien Opy
+    color: tint
+    _template: hero
+  - tagline: ''
+    headline: Le mimétisme
+    text: >
+      Rien de mieux que d’apprendre grâce a ses congénères.
+
+
+      En observant ses camarades il va apprendre et reproduire certains de leurs
+      comportements.
+
+
+      Nos chiens sont là pour apporter calme, confiance et montrer l’exemple à
+      nos élèves.
+
+
+      Nous pourrons travailler différents apprentissages grâce au mimétisme :
+      rappel, position assis – couché, marche en laisse… Mais également
+      différents codes canins.
+
+
+      Le mimétisme peut-être un outil indispensable quand votre compagnon canin
+      ne se sent pas en confiance avec lui même rien de plus efficace de lui
+      montrer que nos chiens médiateurs, eux, ont une relation harmonieuse avec
+      nous les humains.
+    imagePos: left
+    image:
+      src: /uploads/Opy/Rando ou canoe.jpg
     color: default
     _template: hero
   - items:
       - icon:
-          name: BiCodeBlock
-          color: red
+          name: ''
+          color: ''
           style: float
-        title: Amazing Feature
+        title: Here's Another Feature
         text: >-
-          Aliquam blandit felis rhoncus, eleifend ipsum in, condimentum nibh.
-          Praesent ac faucibus risus, eu lacinia enim.
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
       - icon:
-          name: BiLike
-          color: primary
+          name: ''
+          color: ''
           style: float
-        title: This Is a Feature
-        text: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.
-      - icon:
-          name: BiPalette
-          color: green
-          style: float
-        title: Configurable Theme
+        title: Here's Another Feature
         text: >-
-          Edit global theme configuration with Tina. Change your theme's primary
-          color, font, or icon set.
-    color: tint
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
+      - icon:
+          name: ''
+          color: ''
+          style: float
+        title: Here's Another Feature
+        text: >-
+          This is where you might talk about the feature, if this wasn't just
+          filler text.
     _template: features
-  - quote: >-
-      There are only two hard things in Computer Science: cache invalidation and
-      naming things.
-    author: Phil Karlton
-    color: primary
-    _template: testimonial
+  - headline: '  Our pricing plans'
+    text: ''
+    items:
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+      - title: Here's Another price
+        price: '0'
+        tagline: par seance
+    _template: prices
 ---
 

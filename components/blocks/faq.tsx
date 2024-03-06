@@ -51,7 +51,7 @@ export const FAQ = ({data}:{data:PageBlocksFaq})=>{
                                             >
                                                 {item.title}
                                             </summary>
-                                            <div className={` prose prose-lg opacity-80 px-6 pb-6 text-lg
+                                            <div className={` prose prose-lg max-w-none opacity-80 px-6 pb-6 text-lg
                                             ${
                                                 data.color === "primary"
                                                   ? `from-white to-gray-100 text-white`
