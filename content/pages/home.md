@@ -1,4 +1,30 @@
 ---
+seo:
+  title: Educatrice comportementaliste
+  description: >
+    Éducateur, Éducatrice comportementaliste. Ma mission s’étend bien au-delà de
+    la simple éducation et ma vocation première est de fortifier et d’enrichir
+    le lien vous unissant vous et votre chien. Vous me retrouver aussi bien dans
+    le Tarn que l'Aveyron.
+  openGraph:
+    type: website
+    title: Opy'l Poils
+    description: >-
+      Éducatrice Comportementaliste située au pont de Tanus qui a pour mission
+      et vocation d’enrichir le lien vous unissant vous et votre chien.
+    images:
+      url: /uploads/svg/Logo Full.svg
+      width: 150
+      height: 150
+    siteName: Opy'l Poils
+  addtionalMetaTags:
+    - Aveyron
+    - Tarn
+    - 1toit pour toi
+    - Chien
+    - Canin
+    - Educatrice
+    - Educateur
 title: Tina Cloud Starter
 blocks:
   - tagline: Here's some text above the other text
