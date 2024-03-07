@@ -10,20 +10,20 @@
     "color": "default",
     "nav": [
       {
-        "href": "cani-rando-educative",
-        "label": "Cani-rando"
+        "href": "",
+        "label": "Accueil"
       },
       {
         "href": "qui-suis-je",
         "label": "Qui suis-je?"
       },
       {
-        "href": "",
-        "label": "Accueil"
-      },
-      {
         "href": "education-canine",
         "label": "Bilan & autre"
+      },
+      {
+        "href": "cani-rando-educative",
+        "label": "Cani-rando"
       },
       {
         "href": "tarifs",
