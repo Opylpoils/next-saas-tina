@@ -16,6 +16,12 @@ blocks:
       - title: Balade collective
         price: 20 euros
         tagline: 1h30 à 2h
+      - title: Cani-rando éducative
+        price: me contacter
+        tagline: '0661362200'
+        list:
+          - Cani-rando 1 jour avec pique nique
+          - Cani-rando 2 jours avec bivouac
     _template: prices
 ---
 
