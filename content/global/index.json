@@ -41,6 +41,22 @@
       {
         "link": "/",
         "name": "Accueil"
+      },
+      {
+        "link": "qui-suis-je",
+        "name": "Qui Suis-je"
+      },
+      {
+        "link": "education-canine",
+        "name": "Bilan"
+      },
+      {
+        "link": "cani-rando",
+        "name": "Cani Rando"
+      },
+      {
+        "link": "tarifs",
+        "name": "Tarifs"
       }
     ],
     "contact": {
