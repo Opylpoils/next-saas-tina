@@ -29,7 +29,8 @@ export const Masonry = ({ data }: { data: PageBlocksMasonry }) => {
                         </span>
                     </h1>
                 )}{data.text && (
-                    <div className="mx-auto mb-5 text-base text-center prose"               
+                    <div className={`mx-auto mb-5 text-base text-center prose ${data.color === "primary" ? `text-white`
+                    : headlineColorClasses[theme.color] + TheadlineColorClasses[theme.color]}`}               
                         data-tina-field={tinaField(data, "text")}> 
                         <TinaMarkdown content={data.text}/>
                     </div>
@@ -53,7 +54,7 @@ export const masonryBlockSchema: Template = {
     name: "masonry",
     label: "Gallery Mason",
     ui: {
-      previewSrc: "/blocks/HeroCenter.png",
+      previewSrc: "/blocks/mason.png",
     },
     fields: [
       {
