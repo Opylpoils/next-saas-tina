@@ -1,38 +1,18 @@
 ---
 title: tarifs
 blocks:
-  - items:
-      - icon:
-          name: ''
-          color: ''
-          style: float
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          name: ''
-          color: ''
-          style: float
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-      - icon:
-          name: ''
-          color: ''
-          style: float
-        title: Here's Another Feature
-        text: >-
-          This is where you might talk about the feature, if this wasn't just
-          filler text.
-    _template: features
   - headline: '  Our pricing plans'
     text: ''
     items:
-      - title: Here's Another price
-        price: '0'
-        tagline: par seance
+      - title: Bilan comportementale
+        price: 50 euros
+        tagline: ' '
+        list:
+          - 1 séance 50 euros
+          - Forfait 3 séances 135 euros
+          - Forfait 5 séances 220 euros
+          - Forfait 8 séances 320 euros
+          - Forfait 10 séances 400 euros
     _template: prices
 ---
 
