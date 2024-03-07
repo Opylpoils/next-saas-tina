@@ -2,7 +2,7 @@
 title: Tina Cloud Starter
 blocks:
   - tagline: Here's some text above the other text
-    headline: Edu-compotementaliste
+    headline: Educ-comportementaliste
     text: >
       Ma mission s’étend bien au-delà de la simple éducation et ma vocation
       première est de fortifier et d’enrichir le lien vous unissant vous et
