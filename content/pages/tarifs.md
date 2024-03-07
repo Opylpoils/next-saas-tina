@@ -22,6 +22,14 @@ blocks:
         list:
           - Cani-rando 1 jour avec pique nique
           - Cani-rando 2 jours avec bivouac
+      - title: Pension canine
+        price: 15 euros
+        tagline: par jour
+        list:
+          - Votre chien vivra avec nous en famille avec d'autres congénéres
+          - 2 balades dans les bois minimun 2 fois par jour
+          - Accés rivière pour la baignade
+          - Cours éducation possible en suplément
     _template: prices
 ---
 
