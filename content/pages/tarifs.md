@@ -13,9 +13,6 @@ blocks:
           - Forfait 5 séances 220 euros
           - Forfait 8 séances 320 euros
           - Forfait 10 séances 400 euros
-      - title: Balade collective
-        price: 20 euros
-        tagline: 1h30 à 2h
       - title: Cani-rando éducative
         price: me contacter
         tagline: '0661362200'
@@ -30,6 +27,9 @@ blocks:
           - 2 balades dans les bois minimun 2 fois par jour
           - Accés rivière pour la baignade
           - Cours éducation possible en suplément
+      - title: Balade collective
+        price: 20 euros
+        tagline: 1h30 à 2h
     _template: prices
 ---
 
