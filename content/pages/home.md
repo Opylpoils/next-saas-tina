@@ -1,6 +1,17 @@
 ---
 title: Tina Cloud Starter
 blocks:
+  - tagline: Here's some text above the other text
+    headline: Edu-compotementaliste
+    text: >
+      Ma mission s’étend bien au-delà de la simple éducation et ma vocation
+      première est de fortifier et d’enrichir le lien vous unissant vous et
+      votre chien. En me positionnant comme un médiateur entre vos deux univers,
+      je vais faciliter votre cohabitation et votre compréhension mutuelle.
+    imagePos: left
+    image:
+      src: /uploads/Opy/IMG_20230208_165429.jpg
+    _template: hero
   - tagline: Opy'l Poils
     headline: La Methode d'Opy
     text: >
