@@ -1,7 +1,7 @@
 ---
 title: tarifs
 blocks:
-  - headline: '  Our pricing plans'
+  - headline: Tarifs
     text: ''
     items:
       - title: Bilan comportementale
@@ -13,6 +13,9 @@ blocks:
           - Forfait 5 séances 220 euros
           - Forfait 8 séances 320 euros
           - Forfait 10 séances 400 euros
+      - title: Balade collective
+        price: 20 euros
+        tagline: 1h30 à 2h
     _template: prices
 ---
 
