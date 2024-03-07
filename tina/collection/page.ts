@@ -6,6 +6,7 @@ import { featureBlockSchema } from "../../components/blocks/features";
 import { priceBlockSchema } from "../../components/blocks/price";
 import { faqBlockSchema } from "../../components/blocks/faq";
 import { expertSeoPageProps } from "./seo";
+import { heroCenterBlockSchema } from "../../components/blocks/centerHero";
 
 const Page: Collection = {
   label: "Pages",
@@ -46,6 +47,7 @@ const Page: Collection = {
       },
       templates: [
         heroBlockSchema,
+        heroCenterBlockSchema,
         priceBlockSchema,
         faqBlockSchema,
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment

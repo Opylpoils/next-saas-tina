@@ -1,4 +1,5 @@
 import type { Page, PageBlocks } from "../tina/__generated__/types";
+import { HeroCenter } from "./blocks/centerHero";
 import { Content } from "./blocks/content";
 import { FAQ } from "./blocks/faq";
 import { Features } from "./blocks/features";
@@ -29,6 +30,8 @@ const Block = (block: PageBlocks) => {
       return <Content data={block} />;
     case "PageBlocksHero":
       return <Hero data={block} />;
+    case "PageBlocksHerocenter":
+      return <HeroCenter data={block} />;
     case "PageBlocksFeatures":
       return <Features data={block} />;
     case "PageBlocksTestimonial":
