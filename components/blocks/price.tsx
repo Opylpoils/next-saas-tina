@@ -21,17 +21,17 @@ export const Price = ({item,color}:{item:PageBlocksPricesItems, color:string}) =
   return (
       <div className={`flex flex-col items-center px-6 py-8 space-y-8 rounded-2xl shadow even:bg-white ${sectionColorCss} group`}>
         <div className="font-semibold text-center">
-          <h4 className={`text-2xl font-semibold group-even:text-black-300 text-inherit	`}>
+          <h4 className={`text-2xl font-semibold group-even:text-black-300 text-inherit`}>
             {item.title}
           </h4>
-          <span className={`block pt-4 pb-4 text-5xl font-semibold md:text-6xl opacity-4 group-even:text-black-400 text-inherit	`}>
+          <span className={`block pt-4 pb-4 text-5xl font-semibold md:text-6xl opacity-4 group-even:text-black-400 text-inherit`}>
             {item.price}
           </span>
-          <span className={`group-even:text-black-300 text-inherit	 font-normal` }>
+          <span className={`font-normal group-even:text-black-300 text-inherit` }>
             {item.tagline}
           </span>
         </div>
-        <hr className={`my-8 w-full h-px group-odd:bg-gray-200 group-even:bg-gray-900 border-0`} />
+        <hr className={`my-8 w-full h-px border-0 group-odd:bg-gray-200 group-even:bg-gray-900`} />
         <ul className={`font-rubik space-y-2 group-even:text-[#040404] text-base text-center mx-auto`}>
           {item.list &&
           item.list.map((item,i)=>{
@@ -67,7 +67,7 @@ export const PriceTable = ({data} : {data: PageBlocksPrices}) => {
   return (
     <Section color={data.color}>
       <Container size="large" className="px-4 py-8 mx-auto w-4/5">
-        <div className="pt-24 mx-auto mb-12 text-center md:w-3/5">
+        <div className="mx-auto mb-12 text-center  md:w-3/5">
           <h1 className={` font-semibold text-4xl lg:text-[44px] pt-5 bg-clip-text ${TheadlineColorClasses[theme.color]} bg-gradient-to-r  ${
                   data.color === "primary"
                     ? `from-white to-gray-100 text-transparent`

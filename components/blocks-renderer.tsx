@@ -4,6 +4,7 @@ import { Content } from "./blocks/content";
 import { FAQ } from "./blocks/faq";
 import { Features } from "./blocks/features";
 import { Hero } from "./blocks/hero";
+import { Masonry } from "./blocks/masonry";
 import { PriceTable } from "./blocks/price";
 import { Testimonial } from "./blocks/testimonial";
 import { tinaField } from "tinacms/dist/react";
@@ -40,6 +41,8 @@ const Block = (block: PageBlocks) => {
       return <PriceTable data={block} />;
     case "PageBlocksFaq":
       return <FAQ data={block} />;
+    case "PageBlocksMasonry":
+      return <Masonry data={block}/>;
     default:
       return null;
   }

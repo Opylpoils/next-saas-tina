@@ -7,6 +7,7 @@ import { priceBlockSchema } from "../../components/blocks/price";
 import { faqBlockSchema } from "../../components/blocks/faq";
 import { expertSeoPageProps } from "./seo";
 import { heroCenterBlockSchema } from "../../components/blocks/centerHero";
+import { masonryBlockSchema } from "../../components/blocks/masonry";
 
 const Page: Collection = {
   label: "Pages",
@@ -55,6 +56,7 @@ const Page: Collection = {
         featureBlockSchema,
         contentBlockSchema,
         testimonialBlockSchema,
+        masonryBlockSchema,
       ],
     },
   ],
