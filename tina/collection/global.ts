@@ -18,18 +18,18 @@ const Global: Collection = {
     },
     {
       type: "object",
-      label: "Header",
+      label: "Header (Tout en haut)",
       name: "header",
       fields: [
         iconSchema as any,
         {
           type: "string",
-          label: "Name",
+          label: "Nom",
           name: "name",
         },
         {
           type: "string",
-          label: "Color",
+          label: "Couleur",
           name: "color",
           options: [
             { label: "Default", value: "default" },
@@ -38,7 +38,7 @@ const Global: Collection = {
         },
         {
           type: "object",
-          label: "Nav Links",
+          label: "Boutton de Navigation",
           name: "nav",
           list: true,
           ui: {
@@ -67,12 +67,12 @@ const Global: Collection = {
     },
     {
       type: "object",
-      label: "Footer",
+      label: "Footer (Tout en bas)",
       name: "footer",
       fields: [
         {
           type: "string",
-          label: "Color",
+          label: "Couleur",
           name: "color",
           options: [
             { label: "Default", value: "default" },
@@ -81,7 +81,75 @@ const Global: Collection = {
         },
         {
           type: "object",
-          label: "Social Links",
+          label: "Navigation de Footer",
+          name: "nav",
+          list: true,
+          ui: {
+            itemProps: (item) => {
+              return { label: item?.name };
+            },
+          },
+          fields: [
+            {
+              type: "string",
+              label: "Lien de Page",
+              name: "link",
+            },
+            {
+              type: "string",
+              label: "Nom",
+              name: "name",
+            },
+          ],
+        },
+        {
+          type: "object",
+          label: "Information de Contact",
+          name: "contact",
+          fields: [
+            {
+              type: "string",
+              label: "Email",
+              name: "mail",
+            },
+            {
+              type: "string",
+              label: "Telephone",
+              name: "phone",
+            },
+            {
+              type: "string",
+              label: "Adresse",
+              name: "local",
+            },
+          ],
+        },
+        {
+          type: "object",
+          label: "Partenaire",
+          name: "image",
+          list: true,
+          ui: {
+            itemProps: (item) => {
+              return { label: item?.name };
+            },
+          },
+          fields: [
+            {
+              type: "image",
+              label: "Image",
+              name: "image",
+            },
+            {
+              type: "string",
+              label: "Titre",
+              name: "name",
+            },
+          ],
+        },
+        {
+          type: "object",
+          label: "Reseaux Sociaux",
           name: "social",
           fields: [
             {
@@ -117,7 +185,7 @@ const Global: Collection = {
       fields: [
         {
           type: "string",
-          label: "Primary Color",
+          label: "Couleur Primaire",
           name: "color",
           ui: {
             component: ColorPickerInput,

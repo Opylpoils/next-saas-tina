@@ -24,7 +24,26 @@
     ]
   },
   "footer": {
-    "color": "default",
+    "color": "primary",
+    "nav": [
+      {
+        "link": "/",
+        "name": "Accueil"
+      }
+    ],
+    "contact": {
+      "mail": "vanessa@opylpoils.fr"
+    },
+    "image": [
+      {
+        "image": "/uploads/logo.svg",
+        "name": "test"
+      },
+      {
+        "image": "/uploads/logo.png",
+        "name": "test"
+      }
+    ],
     "social": {
       "facebook": "/",
       "twitter": "/",

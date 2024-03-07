@@ -5,8 +5,11 @@ import { AiFillInstagram } from "react-icons/ai";
 import { Container } from "../../util/container";
 import { useTheme } from "..";
 import { Icon } from "../../util/icon";
+import { GlobalFooter, GlobalHeaderIcon } from "../../../tina/__generated__/types";
+import { tinaField } from "tinacms/dist/react";
 
-export const Footer = ({ data, icon }) => {
+
+export const Footer = ({ data, icon }: {data: GlobalFooter, icon: GlobalHeaderIcon}) => {
   const theme = useTheme();
   const socialIconClasses = "h-7 w-auto";
   const socialIconColorClasses = {
@@ -34,7 +37,7 @@ export const Footer = ({ data, icon }) => {
       purple: "text-white from-purple-500 to-purple-600",
       orange: "text-white from-orange-500 to-orange-600",
       yellow: "text-white from-yellow-500 to-yellow-600",
-      black: "text-black from-gray-800 to-black",
+      black: "text-white from-gray-800 to-black",
     },
   };
 
@@ -44,92 +47,121 @@ export const Footer = ({ data, icon }) => {
       : footerColor.default;
 
   return (
-    <footer className={`bg-gradient-to-br ${footerColorCss}`}>
-      <Container className="relative" size="small">
-        <div className="flex justify-between items-center gap-6 flex-wrap">
-          <Link
-            href="/"
-            className="group mx-2 flex items-center font-bold tracking-tight text-gray-400 dark:text-gray-300 opacity-50 hover:opacity-100 transition duration-150 ease-out whitespace-nowrap"
-          >
-            <Icon
-              parentColor={data.color}
-              data={{
-                name: icon.name,
-                color: data.color === "primary" ? "primary" : icon.color,
-                style: icon.style,
-              }}
-              className="inline-block h-10 w-auto group-hover:text-orange-500"
-            />
-          </Link>
-          <div className="flex gap-4">
-            {data.social && data.social.facebook && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={data.social.facebook}
-                target="_blank"
-              >
-                <FaFacebookF
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-            {data.social && data.social.twitter && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={data.social.twitter}
-                target="_blank"
-              >
-                <FaTwitter
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-            {data.social && data.social.instagram && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={data.social.instagram}
-                target="_blank"
-              >
-                <AiFillInstagram
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-            {data.social && data.social.github && (
-              <a
-                className="inline-block opacity-80 hover:opacity-100 transition ease-out duration-150"
-                href={data.social.github}
-                target="_blank"
-              >
-                <FaGithub
-                  className={`${socialIconClasses} ${
-                    socialIconColorClasses[
-                      data.color === "primary" ? "primary" : theme.color
-                    ]
-                  }`}
-                />
-              </a>
-            )}
-          </div>
+    <div>
+    <footer className={`p-10 bg-gradient-to-br footer ${footerColorCss}`}>
+      <nav className="justify-self-center"
+            data-tina-field={tinaField(data, 'nav')} >   
+        <h4 className="text-lg footer-title">Pages</h4> 
+        {data.nav && data.nav.map((item,i)=>{
+        return (
+          <a className="text-base link link-hover" key={i} href={item.link}>{item.name}</a>
+        )})}
+        
+      </nav> 
+      <nav className="justify-self-center"
+            data-tina-field={tinaField(data, 'image')} >
+        <h4 className="mx-auto text-lg footer-title">Partenaires</h4> 
+        <div className='flex flex-row flex-wrap gap-2'>
+          {data.image && data.image.map((item,i)=>{
+            return (
+              <img key={"image"+i} src={item.image} alt={item.name} className="max-h-24" />
+            )
+          })}
         </div>
-        <div
-          className={`absolute h-1 bg-gradient-to-r from-transparent ${
-            data.color === "primary" ? `via-white` : `via-black dark:via-white`
-          } to-transparent top-0 left-4 right-4 opacity-5`}
-        ></div>
-      </Container>
+        <a className="link link-hover"></a>
+
+      </nav>
+      <nav className="justify-self-center" 
+      data-tina-field={tinaField(data, 'contact')} >
+        <h4 className="text-lg footer-title">Contact</h4> 
+        {data.contact.mail && <a className="text-base link link-hover" href={`mailto:${data.contact.mail}`}>{data.contact.mail}</a>}
+        {data.contact.phone && <a className="text-base link link-hover" href={`tel:${data.contact.phone}`}>{data.contact.phone}</a>}
+        {data.contact.local && <a className="text-base link link-hover" >{data.contact.local}</a>}
+      </nav> 
+    </footer> 
+    <footer className={`px-12 py-4 bg-gradient-to-br md:px-36 footer ${footerColorCss}`}>
+      <aside className="grid-flow-col items-center">
+        <Link
+          href="/"
+          className="flex items-center mx-2 font-bold tracking-tight text-gray-400 whitespace-nowrap opacity-50 transition duration-150 ease-out group dark:text-gray-300 hover:opacity-100"
+        >
+          <Icon
+            parentColor={data.color}
+            data={{
+              name: icon.name,
+              color: data.color === "primary" ? "primary" : icon.color,
+              style: icon.style,
+            }}
+            className="inline-block w-auto h-10 group-hover:text-orange-500"
+          />
+        </Link>
+        <p className={`${footerColorCss}`}>Copyright © 2024 - All right reserved by Opy'l Poils</p>
+      </aside> 
+      <nav className="md:place-self-center md:justify-self-end">
+        <div className="grid grid-flow-col gap-4">
+          {data.social && data.social.facebook && (
+            <a
+              className="inline-block opacity-80 transition duration-150 ease-out hover:opacity-100"
+              href={data.social.facebook}
+              target="_blank"
+            >
+              <FaFacebookF
+                className={`${socialIconClasses} ${
+                  socialIconColorClasses[
+                    data.color === "primary" ? "primary" : theme.color
+                  ]
+                }`}
+              />
+            </a>
+          )}
+          {data.social && data.social.twitter && (
+            <a
+              className="inline-block opacity-80 transition duration-150 ease-out hover:opacity-100"
+              href={data.social.twitter}
+              target="_blank"
+            >
+              <FaTwitter
+                className={`${socialIconClasses} ${
+                  socialIconColorClasses[
+                    data.color === "primary" ? "primary" : theme.color
+                  ]
+                }`}
+              />
+            </a>
+          )}
+          {data.social && data.social.instagram && (
+            <a
+              className="inline-block opacity-80 transition duration-150 ease-out hover:opacity-100"
+              href={data.social.instagram}
+              target="_blank"
+            >
+              <AiFillInstagram
+                className={`${socialIconClasses} ${
+                  socialIconColorClasses[
+                    data.color === "primary" ? "primary" : theme.color
+                  ]
+                }`}
+              />
+            </a>
+          )}
+          {data.social && data.social.github && (
+            <a
+              className="inline-block opacity-80 transition duration-150 ease-out hover:opacity-100"
+              href={data.social.github}
+              target="_blank"
+            >
+              <FaGithub
+                className={`${socialIconClasses} ${
+                  socialIconColorClasses[
+                    data.color === "primary" ? "primary" : theme.color
+                  ]
+                }`}
+              />
+            </a>
+          )}
+        </div>
+      </nav>
     </footer>
+    </div>
   );
 };
