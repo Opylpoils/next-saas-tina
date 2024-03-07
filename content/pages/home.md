@@ -1,18 +1,6 @@
 ---
 title: Tina Cloud Starter
 blocks:
-  - tagline: Here's some text above the other text
-    headline: This Big Text is Totally Awesome
-    text: |
-      This Big Text is Totally Awesome
-    actions:
-      - label: Action Label
-        type: button
-        icon: true
-        link: /
-    src: /uploads/Autre/Malou rando.jpg
-    color: default
-    _template: herocenter
   - tagline: Opy'l Poils
     headline: La Methode d'Opy
     text: >
