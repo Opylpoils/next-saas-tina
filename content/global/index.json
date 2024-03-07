@@ -26,6 +26,10 @@
         "label": "Bilan & autre"
       },
       {
+        "href": "tarifs",
+        "label": "Tarifs"
+      },
+      {
         "href": "posts",
         "label": "Blog"
       }
