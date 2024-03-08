@@ -46,7 +46,7 @@ blocks:
         link: /
     imagePos: right
     images:
-      - src: /uploads/IMG_20230915_163806 - Copie (2).jpg
+      - src: /uploads/IMG_20230911_165418.jpg
       - src: >-
           /uploads/m-la-vue-avant-de-marcher-sur-la-passerelle-claude-riveno-visorando-95611.jpg
       - src: /uploads/Opy/thuries.jpg
