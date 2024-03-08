@@ -46,11 +46,12 @@ blocks:
         link: /
     imagePos: right
     images:
-      - {}
+      - src: /uploads/IMG_20230913_195230.jpg
       - src: >-
           /uploads/m-la-vue-avant-de-marcher-sur-la-passerelle-claude-riveno-visorando-95611.jpg
       - src: /uploads/Opy/thuries.jpg
       - src: /uploads/chapelle-las-planques_w2000.jpg
+      - src: /uploads/IMG_20230912_150826 - Copie.jpg
     _template: hero
 ---
 
