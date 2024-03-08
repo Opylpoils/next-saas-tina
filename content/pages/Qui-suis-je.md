@@ -28,19 +28,26 @@ blocks:
 
       Cela me permet de travailler tous type de chiens avec gabarit race et
       caractère différents , il faut prendre le temps de les découvrir et les
-      apaiser de comprendre leur émotions sans connaître leur passé! 
+      apaiser de comprendre leur émotions sans connaître leur passé!
 
 
       C'est pour moi un exercice très enrichissant au quotidien, parfois une
       grande colère de voir tant de souffrance animal mais aussi et surtout
       tellement de bonheur quand les adoptants viennent les rencontrer et
-      reparte avec eux car finalement c'est bien le chien qui les adoptes 
+      reparte avec eux car finalement c'est bien le chien qui les adoptes
 
 
       ![](</uploads/Autre/IMG_20230526_191904 - Copie (2).jpg>)
     imagePos: right
     images:
       - src: /uploads/Opy/IMG_20230221_150052 - Copie (2).jpg
+      - src: /uploads/Opy/IMG_20220111_170050.jpg
+      - src: /uploads/Opy/IMG_20230213_131927.jpg
     _template: hero
+  - images:
+      - {}
+      - src: /uploads/Autre/Border belle photo.jpg
+      - src: /uploads/IMG_20230429_170616 - Copie (2).jpg
+    _template: masonry
 ---
 
