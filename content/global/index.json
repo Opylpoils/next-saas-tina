@@ -10,27 +10,22 @@
     "color": "default",
     "nav": [
       {
-        "page": "content/pages/home.md",
         "href": "",
         "label": "Accueil"
       },
       {
-        "page": "content/pages/Qui-suis-je.md",
-        "href": "qui-suis-je",
+        "href": "Qui-suis-je",
         "label": "Qui suis-je?"
       },
       {
-        "page": "content/pages/education-canine.md",
         "href": "education-canine",
         "label": "Bilan & autre"
       },
       {
-        "page": "content/pages/cani-rando-educative.md",
         "href": "cani-rando-educative",
         "label": "Cani-rando"
       },
       {
-        "page": "content/pages/tarifs.md",
         "href": "tarifs",
         "label": "Tarifs"
       },

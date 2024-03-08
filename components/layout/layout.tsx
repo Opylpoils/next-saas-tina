@@ -7,8 +7,7 @@ import layoutData from "../../content/global/index.json";
 import { Global, PageSeo } from "../../tina/__generated__/types";
 
 export const Layout = ({
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  data = layoutData as any,
+  data = layoutData ,
   SEO,
   children,
 }: {

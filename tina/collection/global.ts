@@ -51,12 +51,12 @@ const Global: Collection = {
             },
           },
           fields: [
-            {
-              label: 'Pages',
-              name: 'page',
-              type: 'reference',
-              collections: ['page'],
-            },
+            // {
+            //   label: 'Pages',
+            //   name: 'page',
+            //   type: 'reference',
+            //   collections: ['page'],
+            // },
             {
               type: "string",
               label: "Link",
