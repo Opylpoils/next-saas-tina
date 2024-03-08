@@ -95,8 +95,9 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
                 const activeItem =
                   (item.href === ""
                     ? router.asPath === "/"
-                    : router.asPath.includes(item.href)) && isClient;
+                    : router.asPath.includes((item.page === undefined || item.page === null || !item.page._sys  ) ? item.href : (item.page._sys.filename === 'home' ? '' : item.page._sys.filename ))) && isClient;
                 return (
+                  
                   <li
                     key={`${item.label}-${i}`}
                     className={`${
@@ -105,7 +106,7 @@ export const Header = ({ data }: { data: GlobalHeader }) => {
                   >
                     <Link
                       data-tina-field={tinaField(item, "label")}
-                      href={`/${item.href}`}
+                      href={`/${ (item.page === undefined || item.page === null || !item.page._sys  ) ? item.href : (item.page._sys.filename === 'home' ? '' : item.page._sys.filename )}`}
                       className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out hover:opacity-100 py-8 px-4 ${
                         activeItem ? `` : `opacity-70`
                       }`}
