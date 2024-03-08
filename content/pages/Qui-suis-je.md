@@ -39,8 +39,8 @@ blocks:
 
       ![](</uploads/Autre/IMG_20230526_191904 - Copie (2).jpg>)
     imagePos: right
-    image:
-      src: /uploads/Opy/IMG_20230221_150052 - Copie (2).jpg
+    images:
+      - src: /uploads/Opy/IMG_20230221_150052 - Copie (2).jpg
     _template: hero
 ---
 

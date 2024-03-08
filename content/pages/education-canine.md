@@ -50,14 +50,14 @@ blocks:
       comportant cours individuel, collectif où balade éducative pour atteindre
       vos objectifs en fonction de vos attentes et de votre compagnon.
     imagePos: left
-    image:
-      src: /uploads/Autre/Border plage.jpg
+    images:
+      - src: /uploads/Autre/Border plage.jpg
     _template: hero
   - tagline: ''
     headline: Balade collective éducative
     text: "* Pour qui pour quoi?\n* Bénéficier de mes conseils en tant qu'éducatrice et comportementaliste\n* Sociabiliser son chien\_aux autres congénères\n* Rencontrer d’autres passionnés pour échanger\n* Vivre de nouvelles expériences avec son chien\n* Travailler et renforcer ce qu’on voit en\_séance individuelle\n* Renforcer la relation avec son chien\n* Apprendre à lire les interactions canines\n* Apprendre à intervenir lorsque c’est nécessaire ?\n* Travailler\_l'éducation de son chien\n* Se confronter à de nouvelles situations avec son animal\n* Renforcer votre lien avec votre chien\n* Offrir une activité complète à  son chien à la fois physique et psychique\_\n* Apprendre à interpréter les attitudes et réactions de votre animal\_\n*\n"
-    image:
-      src: /uploads/Autre/border 12.jpg
+    images:
+      - src: /uploads/Autre/border 12.jpg
     color: primary
     _template: hero
   - title: Questions fréquemment posées

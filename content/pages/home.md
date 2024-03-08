@@ -25,7 +25,7 @@ seo:
     - Canin
     - Educatrice
     - Educateur
-title: Tina Cloud Starter
+title: Opy'l Poils
 blocks:
   - tagline: Here's some text above the other text
     headline: Educ-comportementaliste
@@ -35,8 +35,9 @@ blocks:
       votre chien. En me positionnant comme un médiateur entre vos deux univers,
       je vais faciliter votre cohabitation et votre compréhension mutuelle.
     imagePos: left
-    image:
-      src: /uploads/Opy/IMG_20230208_165429.jpg
+    images:
+      - src: /uploads/Opy/IMG_20230208_165429.jpg
+        alt: Opy
     _template: hero
   - tagline: Opy'l Poils
     headline: La Methode d'Opy
@@ -65,9 +66,9 @@ blocks:
       séances, sachant que nous luttons pour le bien être animal
       quotidiennement.
     imagePos: right
-    image:
-      src: /uploads/Opy/Opy.jpg
-      alt: Mon Chien Opy
+    images:
+      - src: /uploads/Opy/Opy.jpg
+        alt: Mon Chien Opy
     color: tint
     _template: hero
   - tagline: ''
@@ -99,8 +100,8 @@ blocks:
       lui montrer que nos chiens médiateurs, eux, ont une relation harmonieuse
       avec nous les humains.
     imagePos: left
-    image:
-      src: /uploads/Opy/Rando ou canoe.jpg
+    images:
+      - src: /uploads/Opy/Rando ou canoe.jpg
     color: default
     _template: hero
   - items:

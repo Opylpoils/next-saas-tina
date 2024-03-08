@@ -74,23 +74,28 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
             />
           )}
         </div>
-        {data.image && (
-          <div
-            data-tina-field={tinaField(data.image, "src")}
-            className={`flex relative justify-center md:col-span-2 ${(data.imagePos === 'right' || data.imagePos === 'left') && 'row-start-1'}`}
-          >
-            <img
-              className="absolute w-full rounded-lg max-w-xs md:max-w-none h-auto blur-2xl brightness-150 contrast-[0.9] dark:brightness-150 saturate-200 opacity-50 dark:opacity-30 mix-blend-multiply dark:mix-blend-hard-light"
-              src={data.image.src}
-              aria-hidden="true"
-            />
-            <img
-              className="relative z-10 w-full max-w-xs h-auto rounded-lg md:max-w-none"
-              alt={data.image.alt}
-              src={data.image.src}
-            />
-          </div>
-        )}
+        <div className="flex row-start-1 justify-center md:flex-col md:flex-nowrap md:col-span-2">
+          {data.images &&  data.images.map((item,i)=>{
+            return (
+              <div
+              key={i}
+                data-tina-field={tinaField(item, "src")}
+                className={`flex relative justify-center mx-2 md:col-span-2 md:mx-0 md:my-1" ${(data.imagePos === 'right' || data.imagePos === 'left') && 'row-start-1'}`}
+              >
+                <img
+                  className="absolute w-full rounded-lg max-w-xs md:max-w-none h-auto blur-2xl brightness-150 contrast-[0.9] dark:brightness-150 saturate-200 opacity-50 dark:opacity-30 mix-blend-multiply dark:mix-blend-hard-light"
+                  src={item.src}
+                  aria-hidden="true"
+                />
+                <img
+                  className="relative z-10 w-full max-w-xs h-auto rounded-lg md:max-w-none"
+                  alt={item.alt}
+                  src={item.src}
+                />
+              </div>
+            )
+          })}
+        </div>
       </Container>
     </Section>
   );
@@ -186,8 +191,12 @@ export const heroBlockSchema: Template = {
     },
     {
       type: "object",
-      label: "Image",
-      name: "image",
+      label: "Images",
+      name: "images",
+      list:true,
+      ui: {
+        itemProps: (item) => ({ label: item.alt }),
+      },
       fields: [
         {
           name: "src",
