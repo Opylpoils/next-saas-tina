@@ -80,7 +80,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
               <div
               key={i}
                 data-tina-field={tinaField(item, "src")}
-                className={`flex relative justify-center mx-2 md:col-span-2 md:mx-0 md:my-1" ${(data.imagePos === 'right' || data.imagePos === 'left') && 'row-start-1'}`}
+                className={`flex relative justify-center mx-2 md:col-span-2 md:mx-0 md:my-1 h-fit my-auto  " ${(data.imagePos === 'right' || data.imagePos === 'left') && 'row-start-1'}`}
               >
                 <img
                   className="absolute w-full rounded-lg max-w-xs md:max-w-none h-auto blur-2xl brightness-150 contrast-[0.9] dark:brightness-150 saturate-200 opacity-50 dark:opacity-30 mix-blend-multiply dark:mix-blend-hard-light"
