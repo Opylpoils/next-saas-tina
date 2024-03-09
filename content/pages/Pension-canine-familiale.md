@@ -12,18 +12,21 @@ blocks:
   - headline: '  Tarifs'
     text: ''
     items:
-      - title: 'pension chiot '
-        price: 20 euros
-        tagline: si propretée non acquise
       - title: Demi-journée
         price: 5 euros
         tagline: ''
-      - title: journée
+      - title: Journée
         price: 10 euros
         tagline: ''
-      - title: pension compléte
+      - title: Pension compléte
         price: 15 euros
         tagline: journée plus nuit/ croquettes fournit par vos soin
+      - title: 'Pension chiot '
+        price: 20 euros
+        tagline: si propretée non acquise
+      - title: Pension éducative
+        price: me contacter
+        tagline: ''
     _template: prices
 ---
 
