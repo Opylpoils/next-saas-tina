@@ -10,10 +10,6 @@
     "color": "default",
     "nav": [
       {
-        "href": "home",
-        "label": "Pension-canine-familiale"
-      },
-      {
         "href": "",
         "label": "Accueil"
       },
@@ -28,6 +24,10 @@
       {
         "href": "cani-rando-educative",
         "label": "Cani-rando éducative"
+      },
+      {
+        "href": "home",
+        "label": "Pension-canine-familiale"
       },
       {
         "href": "tarifs",
