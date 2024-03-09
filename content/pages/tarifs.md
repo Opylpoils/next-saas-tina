@@ -26,7 +26,7 @@ blocks:
           - Votre chien vivra avec nous en famille avec d'autres congénéres
           - 2 balades dans les bois minimun 2 fois par jour
           - Accés rivière pour la baignade
-          - Cours éducation possible en suplément
+          - Cours éducation possible en supplément
       - title: Balade collective
         price: 20 euros
         tagline: 1h30 à 2h
