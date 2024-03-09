@@ -13,7 +13,7 @@ blocks:
 
       Condition  chien :  de plus d'1 an minimum en bonne condition physique ,
       sociable avec ses congénères : il me faudra avoir préalablement rencontré
-      votre chien au moins  fois. (Si votre chien à des difficultés avec ses
+      votre chien au moins 1 fois. (Si votre chien à des difficultés avec ses
       congénères nous pourrons travailler en amont pour lui permettre d'intégrer
       le groupe.)
 
@@ -29,8 +29,8 @@ blocks:
       Complicité renforcée assurée!!
 
 
-      1 fois votre inscription validé par téléphone je vous envois 1 fiche avec
-      les explications et le matériel à prévoir et contrat .
+      1 fois votre inscription validée par téléphone je vous envoi 1 fiche avec
+      les explications, le matériel à prévoir et le contrat .
     imagePos: left
     images:
       - src: /uploads/Opy/Rando ou canoe.jpg
