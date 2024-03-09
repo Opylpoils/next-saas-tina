@@ -23,9 +23,9 @@ blocks:
         price: 15 euros
         tagline: par jour
         list:
-          - Votre chien vivra avec nous en famille avec d'autres congénéres
-          - 2 balades dans les bois minimun 2 fois par jour
-          - Accés rivière pour la baignade
+          - Votre chien vivra avec nous en famille avec d'autres congénères
+          - 2 balades dans les bois minimum 2 fois par jour
+          - Accès rivière pour la baignade
           - Cours éducation possible en supplément
       - title: Balade collective
         price: 20 euros
