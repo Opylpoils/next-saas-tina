@@ -18,9 +18,9 @@ blocks:
       - title: journée
         price: 10 euros
         tagline: ''
-      - title: Here's Another price
-        price: '0'
-        tagline: par seance
+      - title: pension compléte
+        price: 15 euros
+        tagline: journée plus nuit
     _template: prices
 ---
 
