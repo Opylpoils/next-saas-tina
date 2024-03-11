@@ -1,7 +1,7 @@
 ---
 title: Qui suis-je?
 blocks:
-  - tagline: Here's some text above the other text
+  - tagline: ''
     headline: Qui suis je?
     text: >
       Je suis Vanessa, passionnée d'animaux depuis mon plus jeune âge, j'ai
