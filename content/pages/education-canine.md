@@ -1,4 +1,22 @@
 ---
+seo:
+  title: Bilan canin
+  description: >-
+    Le bilan comportemental est une évaluation réalisée par un éducateur canin
+    ou un comportementaliste canin. Lors de cet examen, j'observe le
+    comportement de votre chien, évalue sa personnalité et son niveau de
+    socialisation, et identifie les éventuels problèmes de comportement.
+  openGraph:
+    title: Bilan canin
+    description: >-
+      Le bilan comportemental est une évaluation réalisée par un éducateur canin
+      ou un comportementaliste canin. Lors de cet examen, j'observe le
+      comportement de votre chien, évalue sa personnalité et son niveau de
+      socialisation, et identifie les éventuels problèmes de comportement.
+    images:
+      url: /uploads/Opy/Opy chien de travail.jpg
+      width: 385
+      height: 576
 title: Education
 blocks:
   - tagline: ''
