@@ -31,6 +31,11 @@ blocks:
 
       1 fois votre inscription validée par téléphone je vous envoi 1 fiche avec
       les explications, le matériel à prévoir et le contrat .
+    actions:
+      - label: Mes tarifts
+        type: button
+        icon: true
+        link: /tarifs
     imagePos: left
     images:
       - src: /uploads/Opy/Rando ou canoe.jpg
