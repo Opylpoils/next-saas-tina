@@ -1,4 +1,33 @@
 ---
+seo:
+  title: Pension canine comme à la maison
+  description: >
+    Pour quelques heures, 1 journée, 1 week-end, 1 court séjour ou 1 long
+    séjour. 
+
+    Votre chien sera accueilli dans notre maison avec nos chiens et vivra une
+    vraie vie de famille.
+
+    2 balades quotidiennes minimum, séances de jeux mais aussi occupations (
+    mastication , tapie de fouille, etc.) adaptées selon l’âge et le tempérament
+    de votre chien.
+  openGraph:
+    type: website
+    title: Pension canine comme à la maison
+    description: >-
+      Pour quelques heures, 1 journée, 1 week-end, 1 court séjour ou 1 long
+      séjour. 
+
+      Votre chien sera accueilli dans notre maison avec nos chiens et vivra une
+      vraie vie de famille.
+
+      2 balades quotidiennes minimum, séances de jeux mais aussi occupations (
+      mastication , tapie de fouille, etc.) adaptées selon l’âge et le
+      tempérament de votre chien.
+    images:
+      url: /uploads/Autre/IMG_20230526_191904 - Copie (2).jpg
+      width: 290
+      height: 385
 title: Tarifs
 blocks:
   - tagline: ''
@@ -29,5 +58,4 @@ blocks:
         tagline: ''
     _template: prices
 ---
-
 
