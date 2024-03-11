@@ -62,7 +62,7 @@ blocks:
     _template: hero
   - title: Questions fréquemment posées
     details:
-      - title: comment cela ce passe
+      - title: 'Comment je travail ? '
         desc: >
           Je dois avoir rencontré votre chien en séances au moins 1 fois pour
           pouvoir l intégrer dans le bon groupe afin d'être sûr qu'il est près
@@ -77,7 +77,7 @@ blocks:
 
           Si vous possédez une chienne non stérilisé et ne devra pas être en
           chaleur.
-      - title: Comment se passe une balade
+      - title: 'Comment se passe une balade ? '
         desc: >
           Je vous propose une balade avec un nombre de kilomètres et une durée.
           Il y aura entre 3 et 6 binômes maître/chien.
