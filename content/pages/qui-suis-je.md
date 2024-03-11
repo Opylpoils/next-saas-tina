@@ -1,4 +1,24 @@
 ---
+seo:
+  title: Qui suis je?
+  description: >-
+    Je suis Vanessa, passionnée d'animaux depuis mon plus jeune âge, j'ai
+    décidée de devenir éducatrice mais aussi et surtout comportementaliste canin
+    afin de pouvoir associer différentes passions ensemble.
+  openGraph:
+    type: website
+    title: Qui suis je?
+    description: >
+      Je suis Vanessa, passionnée d'animaux depuis mon plus jeune âge, j'ai
+      décidée de devenir éducatrice mais aussi et surtout comportementaliste
+      canin.
+
+      J'ai suivie la formation de Nature de chien pour améliorer mes
+      compétences.
+    images:
+      url: /uploads/Opy/IMG_20210728_201446 - Copie.jpg
+      width: 708
+      height: 945
 title: Qui suis-je?
 blocks:
   - tagline: ''
@@ -55,5 +75,4 @@ blocks:
       - src: /uploads/IMG_20230429_170616 - Copie (2).jpg
     _template: masonry
 ---
-
 
