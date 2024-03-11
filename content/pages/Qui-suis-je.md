@@ -47,7 +47,10 @@ blocks:
     _template: hero
   - text: ''
     images:
-      - {}
+      - src: /uploads/IMG_20231007_110555.jpg
+      - src: /uploads/Autre/Malou rando.jpg
+      - src: /uploads/IMG_20231027_163443 - Copie (2).jpg
+      - src: /uploads/IMG_20231223_100632.jpg
       - src: /uploads/Autre/Border belle photo.jpg
       - src: /uploads/IMG_20230429_170616 - Copie (2).jpg
     _template: masonry
