@@ -1,4 +1,23 @@
 ---
+seo:
+  title: 'Cani-rando: une marche qui a du chien'
+  description: >-
+    La cani-rando permet aux chiens de "converser" avec leurs congénères et aux
+    maîtres de rencontrer des gens qui ont les mêmes passions, de faire un peu
+    de sport (marche), de vivre avec la nature et d'apprendre à reconnaitre les
+    signaux émotionnels de leur compagnon canin.
+  openGraph:
+    type: website
+    title: 'Cani-rando: une marche qui a du chien'
+    description: >-
+      La cani-rando permet aux chiens de "converser" avec leurs congénères et
+      aux maîtres de rencontrer des gens qui ont les mêmes passions, de faire un
+      peu de sport (marche), de vivre avec la nature et d'apprendre à
+      reconnaitre les signaux émotionnels de leur compagnon canin.
+    images:
+      url: /uploads/Opy/Opy falise.jpg
+      width: 385
+      height: 290
 title: cani-rando éducative avec bivouac
 blocks:
   - tagline: ''
