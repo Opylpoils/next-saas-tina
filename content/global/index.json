@@ -59,8 +59,16 @@
         "name": "Cani Rando"
       },
       {
+        "link": "pension-canine-familiale",
+        "name": "Pension"
+      },
+      {
         "link": "tarifs",
         "name": "Tarifs"
+      },
+      {
+        "link": "contact",
+        "name": "Contact"
       }
     ],
     "contact": {
