@@ -7,6 +7,7 @@ seo:
     comportement de votre chien, évalue sa personnalité et son niveau de
     socialisation, et identifie les éventuels problèmes de comportement.
   openGraph:
+    type: website
     title: Bilan canin
     description: >-
       Le bilan comportemental est une évaluation réalisée par un éducateur canin
