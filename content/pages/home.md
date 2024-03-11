@@ -27,7 +27,7 @@ seo:
     - Educateur
 title: Opy'l Poils
 blocks:
-  - tagline: Here's some text above the other text
+  - tagline: ''
     headline: Educ-comportementaliste
     text: >
       Ma mission s’étend bien au-delà de la simple éducation et ma vocation
