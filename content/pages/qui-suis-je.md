@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Qui suis je?
+  title: 'Opy''l Poils : Qui suis je?'
   description: >-
     Je suis Vanessa, passionnée d'animaux depuis mon plus jeune âge, j'ai
     décidée de devenir éducatrice mais aussi et surtout comportementaliste canin
