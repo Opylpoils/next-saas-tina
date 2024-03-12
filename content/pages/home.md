@@ -18,6 +18,7 @@ seo:
       height: 150
     siteName: Opy'l Poils
   addtionalMetaTags:
+    - Opy'l Poils
     - Aveyron
     - Tarn
     - 1toit pour toi
