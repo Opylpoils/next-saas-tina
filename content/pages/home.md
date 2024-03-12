@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Educatrice comportementaliste
+  title: 'Opy''l Poils : Educatrice comportementaliste'
   description: >
     Éducateur, Éducatrice comportementaliste. Ma mission s’étend bien au-delà de
     la simple éducation et ma vocation première est de fortifier et d’enrichir
