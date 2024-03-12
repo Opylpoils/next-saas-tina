@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Pension canine comme à la maison
+  title: Opy'l Poils :Pension canine comme à la maison
   description: >
     Pour quelques heures, 1 journée, 1 week-end, 1 court séjour ou 1 long
     séjour. 

@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Bilan canin
+  title: 'Opy''l Poils :Bilan canin'
   description: >-
     Le bilan comportemental est une évaluation réalisée par un éducateur canin
     ou un comportementaliste canin. Lors de cet examen, j'observe le

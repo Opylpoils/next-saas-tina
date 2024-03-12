@@ -1,6 +1,6 @@
 ---
 seo:
-  title: 'Cani-rando: une marche qui a du chien'
+  title: 'Opy''l Poils : une marche qui a du chien'
   description: >-
     La cani-rando permet aux chiens de "converser" avec leurs congénères et aux
     maîtres de rencontrer des gens qui ont les mêmes passions, de faire un peu
