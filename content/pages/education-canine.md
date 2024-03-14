@@ -40,8 +40,8 @@ blocks:
 
       Notre première étape peut se réaliser  directement chez vous ou bien dans
       un lieu neutre. Nos chiens vivent 80 % de leur vie dans la maison, il est
-      important que votre compagnon s'y sent bien et que les bases de l
-      'éducation soit  maîtrisés.
+      important que votre compagnon s'y sente bien et que les bases de l
+      'éducation soient  maîtrisées.
 
 
       Ses besoins fondamentaux de chiens sont-ils réellement connus, respectés
@@ -61,8 +61,8 @@ blocks:
       rencontrez autant à la maison qu’à l’extérieur et nous mettrons en place
       des solutions dès la fin du bilan.
 
-      Nous analyserons aussi les besoins qui lui sont propre à sa race, son âge
-      et son caractère.
+      Nous analyserons aussi les besoins qui sont propre à sa race, son âge et
+      son caractère.
 
 
       A la fin du bilan nous évalurons le nombre de séances nécessaire
