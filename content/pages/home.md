@@ -60,7 +60,7 @@ blocks:
 
       Nous utiliserons des méthodes éducatives positives utilisant la complicité
       homme-chien et la motivation par récompenses ( jeux, friandises, vocal,
-      caresses ….) sont nos guide au quotidien.
+      caresses ….) qui sont nos guides au quotidien.
 
 
       Aucun usage de la peur, privation, force et cri ne sera utilisé durant nos
@@ -76,11 +76,6 @@ blocks:
     headline: Le mimétisme
     text: >
       Rien de mieux que d’apprendre grâce a ses congénères.
-
-
-      Opy est douce et patiente avec les chiens craintifs, tatie éducatrice avec
-      les chiots et également tatie recadrage avec les chiens harceleurs ou
-      impolie lors des présentations.
 
 
       En observant ses camarades votre chien va apprendre et reproduire certains
