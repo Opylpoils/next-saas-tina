@@ -34,7 +34,7 @@ export const Posts = ({ data }: { data: PostsType[] }) => {
           <Link
             key={post._sys.filename}
             href={`/posts/` + post._sys.filename}
-            className="group block px-6 sm:px-8 md:px-10 py-10 mb-8 last:mb-0 bg-gray-50 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-1000 rounded-md shadow-sm transition-all duration-150 ease-out hover:shadow-md hover:to-gray-50 dark:hover:to-gray-800"
+            className="block px-6 py-10 mb-8 bg-gray-50 bg-gradient-to-br from-gray-50 to-gray-100 rounded-md shadow-sm transition-all duration-150 ease-out group sm:px-8 md:px-10 last:mb-0 dark:from-gray-900 dark:to-gray-1000 hover:shadow-md hover:to-gray-50 dark:hover:to-gray-800"
           >
             <h3
               className={`text-gray-700 dark:text-white text-3xl lg:text-4xl font-semibold title-font mb-5 transition-all duration-150 ease-out ${
@@ -42,17 +42,17 @@ export const Posts = ({ data }: { data: PostsType[] }) => {
               }`}
             >
               {post.title}{" "}
-              <span className="inline-block opacity-0 group-hover:opacity-100 transition-all duration-300 ease-out">
-                <BsArrowRight className="inline-block h-8 -mt-1 ml-1 w-auto opacity-70" />
+              <span className="inline-block opacity-0 transition-all duration-300 ease-out group-hover:opacity-100">
+                <BsArrowRight className="inline-block -mt-1 ml-1 w-auto h-8 opacity-70" />
               </span>
             </h3>
-            <div className="prose dark:prose-dark w-full max-w-none mb-5 opacity-70">
+            <div className="mb-5 w-full max-w-none opacity-70 prose prose-p:text-black dark:prose-dark">
               <TinaMarkdown content={post.excerpt} />
             </div>
             <div className="flex items-center">
               <div className="flex-shrink-0 mr-2">
                 <img
-                  className="h-10 w-10 object-cover rounded-full shadow-sm"
+                  className="object-cover w-10 h-10 rounded-full shadow-sm"
                   src={post?.author?.avatar}
                   alt={post?.author?.name}
                 />
@@ -62,7 +62,7 @@ export const Posts = ({ data }: { data: PostsType[] }) => {
               </p>
               {formattedDate !== "" && (
                 <>
-                  <span className="font-bold text-gray-200 dark:text-gray-500 mx-2">
+                  <span className="mx-2 font-bold text-gray-200 dark:text-gray-500">
                     —
                   </span>
                   <p className="text-base text-gray-400 group-hover:text-gray-500 dark:text-gray-300 dark:group-hover:text-gray-150">

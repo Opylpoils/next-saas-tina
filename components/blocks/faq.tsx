@@ -13,10 +13,10 @@ export const FAQ = ({data}:{data:PageBlocksFaq})=>{
 
     return (
         <Section color={data.color}>
-            <Container size="large" className="mt-12 md:mt-24 md:pt-12 mx-auto w-4/5 h-fit">
+            <Container size="large" className="mx-auto mt-12 w-4/5 md:mt-24 md:pt-12 h-fit">
                 <div className="">
                     <div className="flex flex-row">
-                        <div className="text-center m-auto">
+                        <div className="m-auto text-center">
                             <h1 data-tina-field={tinaField(data, "title")}
                             className={`text-4xl leading-tight tracking-tight mt-2 font-semibold ${
                                 data.color === "primary"
@@ -28,18 +28,17 @@ export const FAQ = ({data}:{data:PageBlocksFaq})=>{
                         </div>
                     </div>
                 </div>
-                <hr className="h-px my-5  bg-gray-200 border-0" />
+                <hr className="my-5 h-px bg-gray-200 border-0" />
                 <section className="mx-auto">
-                    <div className=" ">
-                        <div className=" rounded-3xl h-5/6 pt-8 mt-4">
-                            <div className="pb-12 ">
+                    <div className="">
+                        <div className="pt-8 mt-4 h-5/6 rounded-3xl">
+                            <div className="pb-12">
                                 {data.details &&
                                 data.details.map((item,i)=>{
                                     return (
                                         <details key={i}
                                         data-tina-field={tinaField(item)}
-                                        className="
-                                                shadow rounded-lg mb-6"
+                                        className="mb-6 rounded-lg shadow"
                                         >
                                             <summary
                                             className={`font-semibold  rounded-lg py-6 px-6 text-xl
@@ -51,7 +50,7 @@ export const FAQ = ({data}:{data:PageBlocksFaq})=>{
                                             >
                                                 {item.title}
                                             </summary>
-                                            <div className={` prose prose-lg max-w-none opacity-80 px-6 pb-6 text-lg
+                                            <div className={` prose prose-p:text-black prose-lg max-w-none opacity-80 px-6 pb-6 text-lg
                                             ${
                                                 data.color === "primary"
                                                   ? `from-white to-gray-100 text-white`
