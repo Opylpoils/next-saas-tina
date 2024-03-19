@@ -21,6 +21,7 @@ export const Layout = ({
     <>
       <Head>
         <title>{SEO?.title ? SEO?.title : data.title}</title>
+        <link rel='icon' href='/favicon.ico' />
         <meta charSet="UTF-8" />
         <meta name="description" content={SEO?.description ? SEO?.description : metadescription}/>
         <meta name="robot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
@@ -70,7 +71,7 @@ export const Layout = ({
           }`}
         >
           <Header data={data?.header} />
-          <div className="flex-1 text-gray-800 bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000 flex flex-col break-words">
+          <div className="flex flex-col flex-1 text-gray-800 break-words bg-gradient-to-br from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000">
             {children}
           </div>
           <Footer
