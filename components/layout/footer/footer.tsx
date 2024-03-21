@@ -37,7 +37,7 @@ export const Footer = ({ data, icon }: {data: GlobalFooter, icon: GlobalHeaderIc
       purple: "text-white from-purple-500 to-purple-600",
       orange: "text-white from-orange-500 to-orange-600",
       yellow: "text-white from-yellow-500 to-yellow-600",
-      black: "text-white from-gray-800 to-black",
+      black: "text-white from-gray-800 ",
     },
   };
 
