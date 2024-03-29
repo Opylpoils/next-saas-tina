@@ -2915,10 +2915,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@tinacms/app@1.2.37":
-  version "1.2.37"
-  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.2.37.tgz#549cb0dbd5aac7b325fc95d9d16008cfddedaca0"
-  integrity sha512-szutC0FrHpM8Qr2jZFDo7FCzNL8jq691pcHuMTSYz8/nl+1P607E00bjeOd14eHwWSXXv4/c5A3AKKjIgYuDMQ==
+"@tinacms/app@1.2.39":
+  version "1.2.39"
+  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.2.39.tgz#c876ea75bf646903ef880943eaf297a3a2efdfc5"
+  integrity sha512-q8nDzVPn9o4mAObG17K58BdoLL4+OzUAhJyZa/AYjkWySuaMalCUMfSTSE7Y4pNoY6riDTo5XMxCMrXx5dim1w==
   dependencies:
     "@codemirror/language" "6.0.0"
     "@graphiql/toolkit" "0.8.4"
@@ -2936,14 +2936,14 @@
     react-dom "17.0.2"
     react-router-dom "6.3.0"
     tailwindcss "^3.2.7"
-    tinacms "1.5.30"
+    tinacms "1.6.1"
     typescript "^4.6.4"
     zod "^3.14.3"
 
-"@tinacms/cli@^1.5.41":
-  version "1.5.41"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.5.41.tgz#7111bc9132ee5f104f59500cf05616be7df75ae4"
-  integrity sha512-xB8G4vnfwHGSI+9uX1VuBz5hIwCMv/AoIYJKzVd9bEbxoRWJmosY+JjU25ZIYpb4PYylCN91MzWrR8c7byJ12Q==
+"@tinacms/cli@^1.5.43":
+  version "1.5.43"
+  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.5.43.tgz#b016356c06c764ee4039056d4cf567b8d8452976"
+  integrity sha512-HmsPLuLqPUrEOMmOgB/wLWYMZPE3Hsu1A4lbjYLEz2ho5TLozeGv/l7E2O4v/YMgkUGENt1MQhrDP1xZen5GFA==
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
@@ -2959,7 +2959,7 @@
     "@tailwindcss/aspect-ratio" "^0.4.0"
     "@tailwindcss/line-clamp" "^0.3.1"
     "@tailwindcss/typography" "^0.5.9"
-    "@tinacms/app" "1.2.37"
+    "@tinacms/app" "1.2.39"
     "@tinacms/datalayer" "1.2.33"
     "@tinacms/graphql" "1.4.33"
     "@tinacms/metrics" "1.0.2"
@@ -3004,7 +3004,7 @@
     readable-stream "^4.3.0"
     rollup-plugin-visualizer "^5.9.0"
     tailwindcss "^3.2.7"
-    tinacms "1.5.30"
+    tinacms "1.6.1"
     typanion "3.13.0"
     typescript "4.3.5"
     url-pattern "^1.0.3"
@@ -4592,14 +4592,7 @@ client-only@0.0.1, client-only@^0.0.1:
   resolved "https://registry.yarnpkg.com/client-only/-/client-only-0.0.1.tgz#38bba5d403c41ab150bff64a95c85013cf73bca1"
   integrity sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==
 
-clipanion@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/clipanion/-/clipanion-3.2.0.tgz#ea55ce3fe27becb4ddd4915df6fb3de0f9e79a5c"
-  integrity sha512-XaPQiJQZKbyaaDbv5yR/cAt/ORfZfENkr4wGQj+Go/Uf/65ofTQBCPirgWFeJctZW24V3mxrFiEnEmqBflrJYA==
-  dependencies:
-    typanion "^3.8.0"
-
-clipanion@^3.2.1:
+clipanion@^3.2.0, clipanion@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/clipanion/-/clipanion-3.2.1.tgz#2887db4cb232e80ba57cf19347a4e3a1c4a74133"
   integrity sha512-dYFdjLb7y1ajfxQopN05mylEpK9ZX0sO1/RfMXdfmwjlIsPkbh4p7A682x++zFPLDCo1x3p82dtljHf5cW2LKA==
@@ -4860,12 +4853,7 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crypto-js@^4.0.0:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.1.1.tgz#9e485bcf03521041bd85844786b83fb7619736cf"
-  integrity sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==
-
-crypto-js@^4.1.1:
+crypto-js@^4.0.0, crypto-js@^4.1.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz#4d931639ecdfd12ff80e8186dba6af2c2e856631"
   integrity sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==
@@ -8820,16 +8808,7 @@ postcss@8.4.14:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@^8.3.11, postcss@^8.4.14, postcss@^8.4.23:
-  version "8.4.23"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.23.tgz#df0aee9ac7c5e53e1075c24a3613496f9e6552ab"
-  integrity sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==
-  dependencies:
-    nanoid "^3.3.6"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
-
-postcss@^8.3.3, postcss@^8.4.27:
+postcss@^8.3.11, postcss@^8.3.3, postcss@^8.4.14, postcss@^8.4.23, postcss@^8.4.27:
   version "8.4.31"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
   integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
@@ -10308,10 +10287,10 @@ through2@^2.0.0:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-tinacms@1.5.30, tinacms@^1.5.30:
-  version "1.5.30"
-  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.5.30.tgz#c228614c90c9d7283f0d68810a80d4aa4debd2f3"
-  integrity sha512-vho540vCEuMSo/eyxBlpVqJZy/LASliG2t2zGHAHKVpm4+GWardQV3xDONEN+btRFbe9UF/3cg6hCvYVGAwGug==
+tinacms@1.6.1, tinacms@^1.5.30:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/tinacms/-/tinacms-1.6.1.tgz#c8be776198ace6d4f0e00d9a5a185c765616c2f9"
+  integrity sha512-3FddzJqqPUWv3Wt0kNTPIS0EsEvHYMxJPQFUCZiFP1oHj/1atbHmoy89Yr/pHsNHtu2dkzqeph+9wEvPPxI6ew==
   dependencies:
     "@floating-ui/dom" "^1.4.4"
     "@floating-ui/react-dom" "^2.0.1"
@@ -10512,15 +10491,10 @@ typanion@3.13.0:
   resolved "https://registry.yarnpkg.com/typanion/-/typanion-3.13.0.tgz#16522f197f31415f38d7e554b9776c62673fff8e"
   integrity sha512-AkZMjMIW8MGeQwBxu1bixzu/2Zk7rH6ILrI/9zBoW0sAiVaWwHjXSnmPBomfY2t7tSG6m5bIE+OYYyyuGnFVHA==
 
-typanion@^3.12.1:
+typanion@^3.12.1, typanion@^3.8.0:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/typanion/-/typanion-3.14.0.tgz#a766a91810ce8258033975733e836c43a2929b94"
   integrity sha512-ZW/lVMRabETuYCd9O9ZvMhAh8GslSqaUjxmK/JLPCh6l73CvLBiuXswj/+7LdnWOgYsQ130FqLzFz5aGT4I3Ug==
-
-typanion@^3.8.0:
-  version "3.12.1"
-  resolved "https://registry.yarnpkg.com/typanion/-/typanion-3.12.1.tgz#d33deb130aba23ef6f2a3c69e7fb28148dd9089a"
-  integrity sha512-3SJF/czpzqq6G3lprGFLa6ps12yb1uQ1EmitNnep2fDMNh1aO/Zbq9sWY+3lem0zYb2oHJnQWyabTGUZ+L1ScQ==
 
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
@@ -11184,12 +11158,12 @@ yup@^0.32.0, yup@^0.32.9:
     property-expr "^2.0.4"
     toposort "^2.0.2"
 
-zod@3.21.4, zod@^3.14.3:
+zod@3.21.4:
   version "3.21.4"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.21.4.tgz#10882231d992519f0a10b5dd58a38c9dabbb64db"
   integrity sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==
 
-zod@^3.21.4:
+zod@^3.14.3, zod@^3.21.4:
   version "3.22.4"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.22.4.tgz#f31c3a9386f61b1f228af56faa9255e845cf3fff"
   integrity sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==
