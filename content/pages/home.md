@@ -2,10 +2,10 @@
 seo:
   title: 'Opy''l Poils : Educatrice comportementaliste'
   description: >
-    Opy'l Poils: Éducatrice comportementaliste. Ma mission s’étend bien au-delà de
-    la simple éducation et ma vocation première est de fortifier et d’enrichir
-    le lien vous unissant vous et votre chien. Vous me retrouver aussi bien dans
-    le Tarn que l'Aveyron.
+    Opy'l Poils: Éducatrice comportementaliste. Ma mission s’étend bien au-delà
+    de la simple éducation et ma vocation première est de fortifier et
+    d’enrichir le lien vous unissant vous et votre chien. Vous me retrouver
+    aussi bien dans le Tarn que l'Aveyron.
   openGraph:
     type: website
     title: Opy'l Poils
@@ -18,6 +18,10 @@ seo:
       height: 150
     siteName: Opy'l Poils
   addtionalMetaTags:
+    - opyl poil
+    - opylpoil
+    - opylpoils
+    - opyl poils
     - Opy'l Poils
     - Aveyron
     - Tarn
