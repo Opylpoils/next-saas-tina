@@ -28,6 +28,19 @@ seo:
       url: /uploads/Autre/IMG_20230526_191904 - Copie (2).jpg
       width: 290
       height: 385
+  addtionalMetaTags:
+    - opyl poil
+    - opylpoil
+    - opylpoils
+    - opyl poils
+    - Opy'l Poils
+    - Aveyron
+    - Tarn
+    - 1toit pour toi
+    - Chien
+    - Canin
+    - Educatrice
+    - Educateur
 title: 'Tarifs: Pension canine'
 blocks:
   - tagline: ''

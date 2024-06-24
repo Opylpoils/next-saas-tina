@@ -18,6 +18,19 @@ seo:
       url: /uploads/Opy/Opy falise.jpg
       width: 385
       height: 290
+  addtionalMetaTags:
+    - opyl poil
+    - opylpoil
+    - opylpoils
+    - opyl poils
+    - Opy'l Poils
+    - Aveyron
+    - Tarn
+    - 1toit pour toi
+    - Chien
+    - Canin
+    - Educatrice
+    - Educateur
 title: cani-rando éducative avec bivouac
 blocks:
   - tagline: ''

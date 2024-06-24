@@ -19,6 +19,19 @@ seo:
       url: /uploads/Opy/IMG_20210728_201446 - Copie.jpg
       width: 708
       height: 945
+  addtionalMetaTags:
+    - opyl poil
+    - opylpoil
+    - opylpoils
+    - opyl poils
+    - Opy'l Poils
+    - Aveyron
+    - Tarn
+    - 1toit pour toi
+    - Chien
+    - Canin
+    - Educatrice
+    - Educateur
 title: Qui suis-je?
 blocks:
   - tagline: ''

@@ -18,6 +18,19 @@ seo:
       url: /uploads/Opy/Opy chien de travail.jpg
       width: 385
       height: 576
+  addtionalMetaTags:
+    - opyl poil
+    - opylpoil
+    - opylpoils
+    - opyl poils
+    - Opy'l Poils
+    - Aveyron
+    - Tarn
+    - 1toit pour toi
+    - Chien
+    - Canin
+    - Educatrice
+    - Educateur
 title: Education
 blocks:
   - tagline: ''
