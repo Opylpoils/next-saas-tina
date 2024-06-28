@@ -79,15 +79,18 @@
     "image": [
       {
         "image": "/uploads/logo 1 toit pou toi.jpg",
-        "name": "1 toit pour toi"
+        "name": "1 toit pour toi",
+        "link": "https://www.facebook.com/p/1-toit-pour-toi-100064469961446/?locale=fr_FR"
       },
       {
         "image": "/uploads/Logo-au sein de la meute.webp",
-        "name": "Au sein de la meute"
+        "name": "Au sein de la meute",
+        "link": "https://www.auseindelameute.fr/"
       },
       {
         "image": "/uploads/logo_svg.svg",
-        "name": "Nature de chien"
+        "name": "Nature de chien",
+        "link": "https://www.naturedechien.fr/"
       }
     ],
     "social": {

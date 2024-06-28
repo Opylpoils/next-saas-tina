@@ -150,6 +150,10 @@ const Global: Collection = {
               type: "string",
               label: "Titre",
               name: "name",
+            },            {
+              type: "string",
+              label: "Lien",
+              name: "link",
             },
           ],
         },

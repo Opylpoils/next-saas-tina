@@ -63,8 +63,16 @@ export const Footer = ({ data, icon }: {data: GlobalFooter, icon: GlobalHeaderIc
         <h4 className="mx-auto text-lg footer-title">Partenaires</h4> 
         <div className='flex flex-row flex-wrap gap-2'>
           {data.image && data.image.map((item,i)=>{
+            
             return (
-              <img key={"image"+i} src={item.image} alt={item.name} className="max-h-24" />
+              item.link? (
+                  <Link href={item.link} passHref>
+                    <img key={"image"+i} src={item.image} alt={item.name} className="max-h-24" />
+                  </Link>
+                ):(
+                  <img key={"image"+i} src={item.image} alt={item.name} className="max-h-24" />
+                )
+              
             )
           })}
         </div>
